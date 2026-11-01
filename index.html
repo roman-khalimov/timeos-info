@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TimeOS is a personal research project for a weekly view of activities and sleep.">
+  <meta name="referrer" content="no-referrer">
+  <title>TimeOS — Personal time, in context</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="index.html">TimeOS<span class="wordmark-dot" aria-hidden="true">.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="index.html" aria-current="page">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+  <main id="main" class="wrap">
+    <div class="hero">
+      <p class="eyebrow">A personal research project</p>
+      <h1>Personal time,<br>in context.</h1>
+      <p class="lead">TimeOS explores a weekly view of activities from Toggl Track alongside sleep intervals from Oura, for one person's own reflection.</p>
+      <p class="principle">Observability first. Optimization second.</p>
+    </div>
+
+    <section class="status-note" aria-labelledby="status-heading">
+      <p class="eyebrow">Current status · November 1, 2026</p>
+      <h2 id="status-heading">Early research, for personal use.</h2>
+      <p>Toggl Track access is connected for local research. Oura is not connected yet. The Oura authorization callback has not been implemented, and there is no finished TimeOS application.</p>
+    </section>
+
+    <div class="two-column">
+      <section aria-labelledby="purpose-heading">
+        <h2 id="purpose-heading">A weekly perspective</h2>
+        <p>The intended review brings activity and sleep intervals into the same context. It is meant to help the owner understand how a week took shape, without productivity scores or judgments about how time should be spent.</p>
+        <p>Missing records do not mean that nothing happened. Sleep is intended to appear as a time interval, rather than as a score or a medical assessment.</p>
+      </section>
+      <section aria-labelledby="scope-heading">
+        <h2 id="scope-heading">A small, private scope</h2>
+        <p>TimeOS is maintained by <a href="https://github.com/roman-khalimov">roman-khalimov</a> for their own use. It does not offer registration, subscriptions, or access for other users.</p>
+        <p>The proposed Oura use is read-only access to the owner's sleep intervals. Local processing and storage are planned, subject to resolving the applicable data-handling requirements. Oura API data is excluded from planned AI/LLM processing.</p>
+      </section>
+    </div>
+
+    <section class="closing" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">About these pages</h2>
+      <p>This is an information site. It does not connect to Toggl Track or Oura, receive OAuth callbacks, or display personal activity or sleep data. TimeOS is an independent project and is not endorsed by either service.</p>
+      <p>For general questions, use <a href="https://github.com/roman-khalimov/timeos-info/issues">GitHub Issues</a>. Issues are public: do not post health data, activity records, credentials, or other personal information.</p>
+    </section>
+  </main>
+  <footer class="site-footer wrap">
+    <p>TimeOS · Personal project</p>
+    <p><a href="privacy.html">Privacy Policy</a><span aria-hidden="true"> / </span><a href="terms.html">Terms of Service</a></p>
+  </footer>
+</body>
+</html>
